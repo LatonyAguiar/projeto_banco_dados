@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html xmlns:p="http://primefaces.org/ui"
+>
+	<head>
+<meta charset="ISO-8859-1">
+<title>Cadastro de Cliente</title>
+<style>
+body {
+	text-align: center;
+	background-image:
+		url("file:///C:/Users/Latony/Documents/ws-eclipce/ProgetoProg/src/img/usuario.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 40%;
+	background-position: right;
+	background-color: gray;
+}
+
+h2 {
+	margin: 1px 0 4px;
+	color: white;
+	font-size: 100%;
+}
+
+h3, h5 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 30px;
+	font-style: italic;
+	letter-spacing: -0.05em;
+	color: #C63;
+	margin: 2px 0 15px;
+	text-shadow: 1px 1px 2px #666;
+}
+</style>
+
+	</head>
+	<body>
+		<h3>Cadastro de Cliente</h3>
+		<h5>
+			<a href="index.html">Pagina Inicial</a>
+		</h5>
+
+		<form action="CadastroClienteServlet" method="post">
+			<h2>Nome:</h2>
+			<input type="text" name="nomeCliente"><br>
+			<h2>CPF:</h2>
+			<input type="text" name="cpfCliente"><br>
+			<h2>RG:</h2>
+			<input type="text" name="rgCliente"><br>
+			<h2>Endereço:</h2>
+			<input type="text" name="enderecoCliente"><br>
+			<h2>Fone:</h2>
+			<input type="text" name="foneCliente"><br>
+			<br> <input type="submit" value="Enviar">
+		</form>
+
+	</body>
+	</html>

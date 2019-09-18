@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html
+xmlns:p="http://primefaces.org/ui"> 
+>
+<head>
+<meta charset="ISO-8859-1">
+<title>Aluguel</title>
+<style>
+	body{
+		text-align: center;
+		background-image: url("file:///C:/Users/Latony/Documents/ws-eclipce/ProgetoProg/src/img/aluguel.jpg");
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-size: 60%;
+		background-position: center;
+	}
+	
+	h3, h5 {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:30px;
+	font-style:italic;
+	letter-spacing:-0.05em;
+	color:#C63;
+	margin:2px 0 15px;
+	text-shadow:1px 1px 2px #666;
+}
+</style>
+
+</head>
+<body>
+	<h3>Aluguel de veiculo</h3>
+	<h5><a href="index.html">Pagina Inicial</a></h5>
+	
+	<form action="AluguelVeiculoServlet" method="post">
+	
+	
+		Valor:<br>
+		<input type="text" name="valorAluguel"><br>
+		Veiculo:<br>
+		<input type="text" name="veiculoAluguel"><br>
+		Cliente:<br>
+		<input type="text" name="clienteAluguel"><br><br>
+		<input type="submit" value="Enviar">
+	</form>
+
+</body>
+</html>

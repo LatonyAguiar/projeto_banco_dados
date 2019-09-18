@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html xmlns:p="http://primefaces.org/ui">
+<head>
+<meta charset="ISO-8859-1">
+<title>Cadastro Veiculo</title>
+<style>
+	body{
+		text-align: center;
+		background-image: url("file:///C:/Users/Latony/Documents/ws-eclipce/ProgetoProg/src/img/cadastroVei.jpg");
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: 70%;
+	}
+	h2{
+	margin:1px 0 4px;
+	color: white;
+	font-size: 100%;
+	}
+	h3, h5 {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:30px;
+	font-style:italic;
+	letter-spacing:-0.05em;
+	color:#C63;
+	margin:2px 0 15px;
+	text-shadow:1px 1px 2px #666;
+}
+</style>
+
+</head>
+<body>
+	<h3>Cadastro de Veiculo</h3>
+	<h5><a href="index.html">Pagina Inicial</a></h5>
+	
+	<form action="CadastroVeiculoServlet" method="post">
+		<h2 style="color: white;">Placa:</h2>
+		<input type="text" name="placaVeiculo"><br>
+		<h2>Chassi:</h2>
+		<input type="text" name="chassiVeiculo"><br>
+		<h2>Modelo:</h2>
+		<input type="text" name="modeloVeiculo"><br>
+		<h2>Cor:</h2>
+		<input type="text" name="corVeiculo"><br><br>
+		<input type="submit" value="Enviar">
+	</form>
+
+</body>
+</html>
